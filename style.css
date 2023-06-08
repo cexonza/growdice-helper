@@ -1,0 +1,105 @@
+body {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    background-color: green;
+    padding: 1rem;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.helper {
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border-bottom: 1px solid rgb(98, 88, 162);
+    padding-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.buttons button {
+    padding: .3rem 1rem;
+    outline: none;
+    border: none;
+    background-color: rgb(36, 26, 67);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.buttons button.active {
+    background-color: rgb(108, 98, 170);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.rise {
+    padding: .5rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type=number] {
+    outline: none;
+    background: #303030;
+    border: none;
+    color: #fff;
+    padding: .3rem;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.checkos {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type=checkbox] {
+    appearance: none;
+    background-color: rgb(36, 26, 67);
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+input[type=checkbox]:checked {
+
+    background-color: rgb(108, 98, 170);
+}
+
+.authenticateBtn {
+    width: 100%;
+    padding: .5rem;
+    background-color: rgb(36, 26, 67);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.stopBtn {
+    width: 100%;
+    padding: .5rem;
+    background-color: rgb(36, 26, 67);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+
+  "name": "Growdice Helper",
+  "description": "You can automate your growdice bets like limbo, roulette with this extension.",
+  "version": "1.12",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+
+  "action": {
+    "default_title": "Growdice Helper",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["http://growdice.net/*", "https://growdice.net/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
