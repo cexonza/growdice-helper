@@ -8,7 +8,3 @@ injectTheScript();
 function stopLoop(){
   running = false;
 }
-
-
-  document.getElementById('authenticateBtn').addEventListener('click', autoLimbo);
-  document.getElementById('stopBtn').addEventListener('click', stopLoop);
