@@ -6,7 +6,7 @@ With this script you can easily automate Limbo game on growdice also it can auto
 
 It uses auto x2 on lose algorithm. Which is really sucessful martingale technique and it's a long run low-risk method.
 
-How to Install? (this script requires google chrome to work properly.)
+How to Install? (this script requires chromium based browser to work properly.)
 
 1- Go to the **chrome://extensions** (make sure developer mode turned on.) 
 
